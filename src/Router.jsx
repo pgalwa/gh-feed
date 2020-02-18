@@ -13,9 +13,6 @@ export default function AppRouter() {
     return (
         <Router>
             <Switch>
-                <Route path="/">
-                    <Login />
-                </Route>
                 <Route path="/login">
                     <Login />
                 </Route>
